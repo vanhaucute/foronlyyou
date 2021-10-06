@@ -22,13 +22,15 @@ function move() {
      notAgreeBtn.style.left = x + "px"
      notAgreeBtn.style.top  = y + "px"
      number++
-     if (number === 5) {
-          notAgreeBtn.setAttribute("disabled" , "")
+     if (number === 7) {
+          // notAgreeBtn.setAttribute("disabled" , "")
+          notAgreeBtn.removeEventListener("click" , move , false)
      }
+     
 }
 
 function startMove() {
-     setTimeout(move , 1000)
+     setTimeout(move , 3500)
 }
 
 notAgreeBtn.addEventListener("click" , move)
@@ -61,9 +63,9 @@ inputBox.addEventListener("input" , write)
 
 
 
-
 // Button Ripple Effect
 var allBtns = document.querySelectorAll(".btn")
+
 allBtns.forEach(btn => {
      btn.addEventListener("click" ,function(e) {
 
