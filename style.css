@@ -192,6 +192,7 @@ body {
 @media (max-width : 670px) {
      .modal-container {
           width : 80%;
+          height : 600px;
      }
 
      .modal .img {
