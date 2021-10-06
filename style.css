@@ -57,16 +57,16 @@ body {
      border-radius: 20px;
      background-image: linear-gradient( #df2845eb ,#d9187ec9);
      margin : auto;
-     width: 400px;
-     height: 600px;
+     width: 50%;
+     height: 700px;
      color : #fff;
 }
 
 .modal .img {
      margin : auto;
      border-radius: 5px;
-     width : 50%;
-     height : 50%;
+     width : 70%;
+     height : 70%;
 }
 
 /* .btn {
@@ -102,14 +102,14 @@ body {
 
 .agree {
      top : 500px;
-     left : 600px;
+     left : 30%;
      background-color: #5CDB95;
 }
 
 .notAgree {
      background-color: #FC4445;
      top : 500px;
-     right : 600px;
+     right : 30%;
      min-width: 120px;
      transition: all 1s ease-in-out;
 }
