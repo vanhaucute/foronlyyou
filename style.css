@@ -6,9 +6,15 @@
      box-sizing: border-box;
 }
 
+body {
+     overflow : hidden;
+     height : 100vh;
+}
+
 html {
      font-family: 'Montserrat', sans-serif;
 }
+
 
 .up {
      margin-top: -100vh;
@@ -69,8 +75,12 @@ html {
      font-weight: bold;  
      cursor: pointer;
      min-width: 140px;
-     color : #222;
+     color : #fff;
      transition : all .5s ease;
+}
+
+.js-start {
+     background-color: #F13C20;
 }
 
 .btn:hover {
