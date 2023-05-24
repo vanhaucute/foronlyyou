@@ -1,5 +1,4 @@
-# foronlyyou
-This project was made for my crush but its a secret. She will never know it
+Just kidding
 
 
 I made this project for fun. 
